@@ -1,0 +1,11 @@
+
+h1 {
+  text-align: center;
+  color: green;
+}
+
+img {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
