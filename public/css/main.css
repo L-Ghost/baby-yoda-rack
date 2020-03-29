@@ -1,11 +1,28 @@
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.characters {
+	text-align: center;
+}
+
 h1 {
-  text-align: center;
-  color: green;
+	text-align: center;
+  text-transform: uppercase;
+  margin-top: 200px;
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  color: #191970;
 }
 
 img {
   display: inline-block;
-  width: 250px;
-  height: 250px;
+  opacity: 0.7;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px/30px;
+  padding: 5px;
 }
