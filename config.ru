@@ -1,6 +1,13 @@
+require './lib/baby_yoda'
+
+# middlewares
+
 use Rack::Static,
   urls: ['/images', '/js', '/css'],
   root: 'public'
+use BabyYoda
+
+# run app
 
 run lambda { |env|
   [
