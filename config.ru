@@ -1,11 +1,13 @@
-require './lib/baby_yoda'
+#require './lib/baby_yoda'
+require './lib/baby_yoda_included'
 
 # middlewares
 
 use Rack::Static,
   urls: ['/images', '/js', '/css'],
   root: 'public'
-use BabyYoda
+# use BabyYoda
+use BabyYodaIncluded
 
 # run app
 
